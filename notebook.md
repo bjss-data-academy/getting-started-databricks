@@ -42,3 +42,20 @@ __Oh dear!__ computer says no:
 We need to select a _Compute Resource_.
 
 ## Select a compute resource
+Click the blue _Go to Compute_ button.
+
+You'll see the selection screen for the various compute options we have.
+
+We're going to use Databricks in its lowest-power (and so lowest-cost) mode.
+
+To do this:
+- Select _Single Node_
+- Use _30 minutes_ as the timeout
+
+The screen should look like this after those changes:
+
+![Compute settings screen for single node, 30 minute timeout](/images/compute-settings.png)
+
+Click to action those changes.
+
+And then wait ...

@@ -44,7 +44,7 @@ We need to select a _Compute Resource_.
 ## Select a compute resource
 Click the blue _Go to Compute_ button.
 
-You'll see the selection screen for the various compute options we have.
+You'll see the selection screen for the various compute options we have. These are the cloud based computers that will run Databricks and our Notebook code. There are many options, each with different price-performance and specialisms. 
 
 We're going to use Databricks in its lowest-power (and so lowest-cost) mode.
 
@@ -56,6 +56,17 @@ The screen should look like this after those changes:
 
 ![Compute settings screen for single node, 30 minute timeout](/images/compute-settings.png)
 
-Click to action those changes.
+Click _Create Compute_ to action those changes.
 
 And then wait ...
+
+It can take some time - maybe several minutes - for the resources to spin up. Patience, as they say, is a virtue ;)
+
+## Hello notebook world!
+The workspace connects to our compute resource, and for a short time, you will see a notification popup that tells you this.
+
+The Python code will then run, and display its heart-warming output below the notebook:
+
+![Notebook with output](/images/hello-notebook-world.png)
+
+## Using SQL in the same notebook

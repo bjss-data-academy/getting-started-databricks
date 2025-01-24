@@ -26,7 +26,7 @@ To change the name, click inside the name field and type your new name:
 ## Using Python
 At the top of the window is a grey text area, with the all-too-tempting _Start typing_ phrase.
 
-Type in the historic
+Type in the historic - indeed, _exuberant_ - first line of code:
 
 ```python
 print("Hello notebook world")

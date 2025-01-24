@@ -7,3 +7,6 @@
 ## Using Notebooks
 - [Features of notebooks](/notebook.md)
 - Using Python
+
+## Introducing Apache Spark
+- [Apache Spark](/spark.md)

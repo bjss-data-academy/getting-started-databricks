@@ -69,4 +69,44 @@ The Python code will then run, and display its heart-warming output below the no
 
 ![Notebook with output](/images/hello-notebook-world.png)
 
+## Adding notes using markdown
+Notebooks can contain blocks of notes written in github markdown language. 
+
+To do this, we need to add a new code editor - and this is not particularly obvious.
+
+![popup code and text buttons](/images/code-text-hover.png)
+
+To add a new editor:
+- Hover the cursor underneath the existing code block
+- Two popup buttons appear _+ Code_ and _+ Text_
+- Click on _+ Text_
+
+This should add a new editor in the notebook. Inside the editor, add the following markdown text:
+
+![Markdown entry](/images/text-entry.png)
+
+Once we click outside of the editor block, the view changes. The editor is hiiden, and the markdown is rendered:
+
+![Rendered markdown](/images/markdown.png)
+
+We can further edit the markdown by clicking inside the rendering. the editor block will return.
+
 ## Using SQL in the same notebook
+We can add a separate code block written in SQL.
+
+Add another new editor block and type in this simple SQL query:
+
+```sql
+SELECT COUNT(1)
+```
+
+Click the Run button. After a short time, we will see the results table:
+
+![Showing SQL query results in a table](/images/sql-results.png)
+
+You can see a hint at the bottom of that table. It says that the results have been stored in a variable named `_sqldf`. That's your first-fix-free introduction to Apache Spark programming, which we will take the briefest of looks at next.
+
+# Next
+[Apache Spark](/spark.md)
+
+[Back to Contents](/contents.md)

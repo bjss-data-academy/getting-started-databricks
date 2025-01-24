@@ -30,11 +30,11 @@ Click on the _New_ link in the top left corner. Click _Notebook_ from the menu.
 
 Databricks will create a new untitled notebook, looking like this:
 
-![Initial untitled notebook screen](/images/untitled-notbook.png)
+![Initial untitled notebook screen](/images/untitled-notebook.png)
 
 We're ready to type some code.
 
 # Next
-[Using the Notebook](notebook.md)
+[Using the Notebook](/notebook.md)
 
 [Back to Contents](/contents.md)

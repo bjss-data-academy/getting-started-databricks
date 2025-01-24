@@ -32,7 +32,7 @@ Type in the historic - indeed, _exuberant_ - first line of code:
 print("Hello notebook world")
 ```
 
-then click the _Run_ button - the blue down arrow at the top left:
+then click the _Run_ button - the blue arrow at the top left:
 
 ![Run the Python code](/images/attempt-run-python.png)
 

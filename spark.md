@@ -1,4 +1,4 @@
-# Apache Spark Programming
+# Introducing Apache Spark
 
 [Apache Spark] is a
 

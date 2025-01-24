@@ -24,3 +24,21 @@ To change the name, click inside the name field and type your new name:
 ![Renamed notebook view](/images/renamed-notebook.png)
 
 ## Using Python
+At the top of the window is a grey text area, with the all-too-tempting _Start typing_ phrase.
+
+Type in the historic
+
+```python
+print("Hello notebook world")
+```
+
+then click the _Run_ button - the blue down arrow at the top left:
+
+![Run the Python code](/images/attempt-run-python.png)
+
+__Oh dear!__ computer says no:
+
+![Error message saying we have no compute yet](/images/no-compute-resource.png)
+We need to select a _Compute Resource_.
+
+## Select a compute resource

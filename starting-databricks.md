@@ -1,6 +1,4 @@
 # Starting Databricks
-It's always a good idea to start the app, no?
-
 Let's open the Databricks workspace and have a look around.
 
 ## Opening the workspace
